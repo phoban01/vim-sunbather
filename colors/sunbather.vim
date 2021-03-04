@@ -106,14 +106,14 @@ call s:h("Identifier",    {"fg": s:dark_blue})
 hi! link Identifier       Identifier
 hi! link Function         Identifier
 
-call s:h("Statement",     {"fg": s:green})
+call s:h("Statement",     {"fg": s:dark_green})
 hi! link Conditonal       Statement
 hi! link Repeat           Statement
 hi! link Label            Statement
 hi! link Keyword          Statement
 hi! link Exception        Statement
 
-call s:h("Operator",      {"fg": s:dark_yellow})
+call s:h("Operator",      {"fg": s:norm_subtle})
 
 call s:h("PreProc",     {"fg": s:norm_subtle})
 hi! link Include          PreProc
@@ -126,7 +126,7 @@ hi! link StorageClass     Type
 hi! link Structure        Type
 hi! link Typedef          Type
 
-call s:h("Special",       {"fg": s:norm_subtle, "gui": "italic"})
+call s:h("Special",       {"fg": s:norm_subtle })
 hi! link SpecialChar      Special
 hi! link Tag              Special
 hi! link Delimiter        Special
